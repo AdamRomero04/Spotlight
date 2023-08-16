@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7a24f3b0965568422d3b90776500029a",
+    "packages": [
+        {
+            "name": "akashrchandran/spotify-lyrics-api",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akashrchandran/spotify-lyrics-api.git",
+                "reference": "54e99577971963662f5346b9d483250cbde0dbdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akashrchandran/spotify-lyrics-api/zipball/54e99577971963662f5346b9d483250cbde0dbdc",
+                "reference": "54e99577971963662f5346b9d483250cbde0dbdc",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SpotifyLyricsApi\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Akash R Chandran",
+                    "email": "chandranrakash@gmail.com"
+                }
+            ],
+            "description": "A Rest API for fetching lyrics from Spotify which is powered by Musixmatch.",
+            "support": {
+                "issues": "https://github.com/akashrchandran/spotify-lyrics-api/issues",
+                "source": "https://github.com/akashrchandran/spotify-lyrics-api/tree/v2.0.0"
+            },
+            "time": "2023-05-07T20:37:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

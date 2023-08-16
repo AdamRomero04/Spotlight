@@ -1,0 +1,5 @@
+{
+    "require": {
+        "akashrchandran/spotify-lyrics-api": "^2.0"
+    }
+}
