@@ -11,7 +11,7 @@ if($match == True){
     return 1;
 }
 
-$spotify = new SpotifyLyricsApi\Spotify("AQCKaQKikYd_Q1E5cLsqHrqGs-ELeW1eqGN_c9X_Y5YZNLIvZN1NdESXNBrVym7m5kqLsle1jOC99ukb_Xj53biwWYmAHfIt6LzxAY0ynSKYZ5PLUqQltlhXImOwt0Vrnh6j8ly4X06WRLM9djg9mRfQKxxRv1dK");
+$spotify = new SpotifyLyricsApi\Spotify("_");
 $spotify->checkTokenExpire();
 $track = $songID;
 $response = $spotify -> getLyrics(track_id: $track);
